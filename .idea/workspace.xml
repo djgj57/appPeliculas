@@ -22,7 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1b795dd-4119-415c-882d-fde5356cc131" name="Default Changelist" comment="" />
+    <list default="true" id="c1b795dd-4119-415c-882d-fde5356cc131" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/providers/peliculas_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/providers/peliculas_provider.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +34,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\djgj5\.android\avd\Pixel_3a_API_30_x86.avd]" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1tGX5sgZv5nqmiXzJ2Kk9cIDRQX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -40,12 +44,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunManager">
@@ -99,34 +104,38 @@
       <screen x="2400" y="0" width="1366" height="728" />
     </state>
     <state x="2500" y="106" width="927" height="512" key="AVDManager/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1622605893159" />
+    <state x="2500" y="100" width="880" height="528" maximized="true" key="DiffContextDialog" timestamp="1623806580012">
+      <screen x="2400" y="0" width="1366" height="728" />
+    </state>
+    <state x="2500" y="100" width="880" height="528" maximized="true" key="DiffContextDialog/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1623806580012" />
     <state x="2864" y="96" key="FileChooserDialogImpl" timestamp="1622419731315">
       <screen x="2400" y="0" width="1366" height="728" />
     </state>
     <state x="2864" y="96" key="FileChooserDialogImpl/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1622419731315" />
-    <state width="1059" height="145" key="GridCell.Tab.0.bottom" timestamp="1623728487778">
+    <state width="1053" height="143" key="GridCell.Tab.0.bottom" timestamp="1623806408016">
       <screen x="2400" y="0" width="1366" height="728" />
     </state>
     <state width="1493" height="241" key="GridCell.Tab.0.bottom/0.0.1536.824/2400.0.1366.728@0.0.1536.824" timestamp="1622606870075" />
-    <state width="1059" height="145" key="GridCell.Tab.0.bottom/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1623728487778" />
-    <state width="1059" height="145" key="GridCell.Tab.0.center" timestamp="1623728487777">
+    <state width="1053" height="143" key="GridCell.Tab.0.bottom/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1623806408016" />
+    <state width="1053" height="143" key="GridCell.Tab.0.center" timestamp="1623806408016">
       <screen x="2400" y="0" width="1366" height="728" />
     </state>
     <state width="1493" height="241" key="GridCell.Tab.0.center/0.0.1536.824/2400.0.1366.728@0.0.1536.824" timestamp="1622606870075" />
-    <state width="1059" height="145" key="GridCell.Tab.0.center/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1623728487777" />
-    <state width="1059" height="145" key="GridCell.Tab.0.left" timestamp="1623728487776">
+    <state width="1053" height="143" key="GridCell.Tab.0.center/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1623806408016" />
+    <state width="1053" height="143" key="GridCell.Tab.0.left" timestamp="1623806408016">
       <screen x="2400" y="0" width="1366" height="728" />
     </state>
     <state width="1493" height="241" key="GridCell.Tab.0.left/0.0.1536.824/2400.0.1366.728@0.0.1536.824" timestamp="1622606870075" />
-    <state width="1059" height="145" key="GridCell.Tab.0.left/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1623728487776" />
-    <state width="1059" height="145" key="GridCell.Tab.0.right" timestamp="1623728487777">
+    <state width="1053" height="143" key="GridCell.Tab.0.left/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1623806408016" />
+    <state width="1053" height="143" key="GridCell.Tab.0.right" timestamp="1623806408016">
       <screen x="2400" y="0" width="1366" height="728" />
     </state>
     <state width="1493" height="241" key="GridCell.Tab.0.right/0.0.1536.824/2400.0.1366.728@0.0.1536.824" timestamp="1622606870075" />
-    <state width="1059" height="145" key="GridCell.Tab.0.right/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1623728487777" />
-    <state x="2644" y="21" width="914" height="707" key="SettingsEditor" timestamp="1623724534169">
+    <state width="1053" height="143" key="GridCell.Tab.0.right/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1623806408016" />
+    <state x="2644" y="21" width="914" height="707" key="SettingsEditor" timestamp="1623802124121">
       <screen x="2400" y="0" width="1366" height="728" />
     </state>
-    <state x="2644" y="21" width="914" height="707" key="SettingsEditor/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1623724534169" />
+    <state x="2644" y="21" width="914" height="707" key="SettingsEditor/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1623802124121" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1622418830211">
       <screen x="2400" y="0" width="1366" height="728" />
     </state>
@@ -135,6 +144,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/2400.0.1366.728@0.0.1536.824" timestamp="1622606569761" />
+    <state x="2491" y="101" width="911" height="528" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1623806401144">
+      <screen x="2400" y="0" width="1366" height="728" />
+    </state>
+    <state x="2491" y="101" width="911" height="528" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1623806401144" />
     <state x="2519" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1622417895275">
       <screen x="2400" y="0" width="1366" height="728" />
     </state>
@@ -143,9 +156,9 @@
       <screen x="2400" y="0" width="1366" height="728" />
     </state>
     <state x="2614" y="266" width="609" height="280" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1623282011271" />
-    <state x="2620" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1623724274812">
+    <state x="2620" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1623803690032">
       <screen x="2400" y="0" width="1366" height="728" />
     </state>
-    <state x="2620" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1623724274812" />
+    <state x="2620" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1623803690032" />
   </component>
 </project>
