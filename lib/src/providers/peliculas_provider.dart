@@ -78,5 +78,7 @@ class PeliculasProvider {
     return cast.actores;
   }
 }
-
+// Peliculas:
 // https://api.themoviedb.org/3/movie/now_playing?api_key=2a588dbe2261bd8797b767ae6e607403&language=es-ES&page=1#
+// Actores:
+// https://api.themoviedb.org/3/movie/456740/credits?api_key=2a588dbe2261bd8797b767ae6e607403&language=es-Es#
