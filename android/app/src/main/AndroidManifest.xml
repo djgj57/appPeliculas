@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.peliculas">
+    <uses-permission android:name="android.permission.INTERNET" />
    <application
         android:label="peliculas"
         android:icon="@mipmap/ic_launcher">

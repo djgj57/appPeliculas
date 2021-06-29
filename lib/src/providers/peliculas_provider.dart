@@ -77,8 +77,21 @@ class PeliculasProvider {
     final cast = Cast.fromJsonList(decodeData['cast']);
     return cast.actores;
   }
+
+  Future<List<Pelicula>> buscarPelicula(String query) async {
+    final url = Uri.https(_url, '3/search/movie', {
+      'api_key': _apikey,
+      'language': _language,
+      'query': query,
+    });
+    return await _procesarRespuesta(url);
+  }
 }
+
+// https://developers.themoviedb.org/3/movies/get-movie-details
 // Peliculas:
 // https://api.themoviedb.org/3/movie/now_playing?api_key=2a588dbe2261bd8797b767ae6e607403&language=es-ES&page=1#
 // Actores:
 // https://api.themoviedb.org/3/movie/456740/credits?api_key=2a588dbe2261bd8797b767ae6e607403&language=es-Es#
+// Buscar peliculas:
+// https://developers.themoviedb.org/3/search/search-movies

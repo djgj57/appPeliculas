@@ -22,13 +22,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1b795dd-4119-415c-882d-fde5356cc131" name="Default Changelist" comment="115. Servicio para obtener los actores de la película">
+    <list default="true" id="c1b795dd-4119-415c-882d-fde5356cc131" name="Default Changelist" comment="118. Hero Animation en las tarjetas principales">
+      <change afterPath="$PROJECT_DIR$/lib/src/search/search_delegate.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/models/pelicula_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/models/pelicula_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/pages/home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/pages/home_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/pages/pelicula_detalle.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/pages/pelicula_detalle.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/providers/peliculas_provider.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/providers/peliculas_provider.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/widgets/card_swiper_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/widgets/card_swiper_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/widgets/movie_horizontal.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/widgets/movie_horizontal.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/peliculas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/peliculas.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +38,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\djgj5\.android\avd\Pixel_3a_API_30_x86.avd]" />
+  <component name="FlutterView" splitter-proportion="0.6307978" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -78,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623807407272</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="118. Hero Animation en las tarjetas principales">
+      <created>1624580519430</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624580519430</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,7 +108,8 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="115. Servicio para obtener los actores de la película" />
-    <option name="LAST_COMMIT_MESSAGE" value="115. Servicio para obtener los actores de la película" />
+    <MESSAGE value="118. Hero Animation en las tarjetas principales" />
+    <option name="LAST_COMMIT_MESSAGE" value="118. Hero Animation en las tarjetas principales" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2836" y="188" key="#Notifications" timestamp="1623289980778">
@@ -129,26 +140,26 @@
       <screen x="2400" y="0" width="1366" height="728" />
     </state>
     <state x="2864" y="96" key="FileChooserDialogImpl/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1622419731315" />
-    <state width="1324" height="144" key="GridCell.Tab.0.bottom" timestamp="1624421475296">
+    <state width="1062" height="132" key="GridCell.Tab.0.bottom" timestamp="1624940994094">
       <screen x="2400" y="0" width="1366" height="728" />
     </state>
     <state width="1493" height="241" key="GridCell.Tab.0.bottom/0.0.1536.824/2400.0.1366.728@0.0.1536.824" timestamp="1622606870075" />
-    <state width="1324" height="144" key="GridCell.Tab.0.bottom/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1624421475296" />
-    <state width="1324" height="144" key="GridCell.Tab.0.center" timestamp="1624421475296">
+    <state width="1062" height="132" key="GridCell.Tab.0.bottom/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1624940994094" />
+    <state width="1062" height="132" key="GridCell.Tab.0.center" timestamp="1624940994094">
       <screen x="2400" y="0" width="1366" height="728" />
     </state>
     <state width="1493" height="241" key="GridCell.Tab.0.center/0.0.1536.824/2400.0.1366.728@0.0.1536.824" timestamp="1622606870075" />
-    <state width="1324" height="144" key="GridCell.Tab.0.center/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1624421475296" />
-    <state width="1324" height="144" key="GridCell.Tab.0.left" timestamp="1624421475296">
+    <state width="1062" height="132" key="GridCell.Tab.0.center/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1624940994094" />
+    <state width="1062" height="132" key="GridCell.Tab.0.left" timestamp="1624940994094">
       <screen x="2400" y="0" width="1366" height="728" />
     </state>
     <state width="1493" height="241" key="GridCell.Tab.0.left/0.0.1536.824/2400.0.1366.728@0.0.1536.824" timestamp="1622606870075" />
-    <state width="1324" height="144" key="GridCell.Tab.0.left/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1624421475296" />
-    <state width="1324" height="144" key="GridCell.Tab.0.right" timestamp="1624421475296">
+    <state width="1062" height="132" key="GridCell.Tab.0.left/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1624940994094" />
+    <state width="1062" height="132" key="GridCell.Tab.0.right" timestamp="1624940994094">
       <screen x="2400" y="0" width="1366" height="728" />
     </state>
     <state width="1493" height="241" key="GridCell.Tab.0.right/0.0.1536.824/2400.0.1366.728@0.0.1536.824" timestamp="1622606870075" />
-    <state width="1324" height="144" key="GridCell.Tab.0.right/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1624421475296" />
+    <state width="1062" height="132" key="GridCell.Tab.0.right/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1624940994094" />
     <state x="2644" y="21" width="914" height="707" key="SettingsEditor" timestamp="1624418252605">
       <screen x="2400" y="0" width="1366" height="728" />
     </state>
@@ -157,11 +168,11 @@
       <screen x="2400" y="0" width="1366" height="728" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1622418830211" />
-    <state x="2721" y="128" key="Vcs.Push.Dialog.v2" timestamp="1623807433190">
+    <state x="2721" y="128" key="Vcs.Push.Dialog.v2" timestamp="1624580654313">
       <screen x="2400" y="0" width="1366" height="728" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/2400.0.1366.728@0.0.1536.824" timestamp="1622606569761" />
-    <state x="2721" y="128" key="Vcs.Push.Dialog.v2/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1623807433190" />
+    <state x="2721" y="128" key="Vcs.Push.Dialog.v2/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1624580654313" />
     <state x="2491" y="101" width="911" height="528" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1623806401144">
       <screen x="2400" y="0" width="1366" height="728" />
     </state>
@@ -174,9 +185,9 @@
       <screen x="2400" y="0" width="1366" height="728" />
     </state>
     <state x="2614" y="266" width="609" height="280" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1623282011271" />
-    <state x="2620" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1624418095906">
+    <state x="2620" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1624940736303">
       <screen x="2400" y="0" width="1366" height="728" />
     </state>
-    <state x="2620" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1624418095906" />
+    <state x="2620" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/2400.0.1366.728@2400.0.1366.728" timestamp="1624940736303" />
   </component>
 </project>
